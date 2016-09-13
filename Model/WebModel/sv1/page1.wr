@@ -1,0 +1,56 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="65" gr:y="55" id="sv1#page1" name="Personal Page">
+  <ContentUnits>
+    <MultiMessageUnit gr:x="0" gr:y="0" id="sv1#page1#mssu1" name="Welcome">
+      <Message xml:space="preserve">This is Nick Petty's personal webpage.  Please try all the things.</Message>
+    </MultiMessageUnit>
+    <EventCalendarUnit gr:x="95" gr:y="0" id="sv1#page1#ecu1" name="Check your calendar"/>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#page1#mssu1"/>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#page1#ecu1">
+          <layout:Link link="sv1#page1#ecu1-month-0"/>
+          <layout:Link link="sv1#page1#ecu1-month-1"/>
+          <layout:Link link="sv1#page1#ecu1-month-2"/>
+          <layout:Link link="sv1#page1#ecu1-month-3"/>
+          <layout:Link link="sv1#page1#ecu1-month-4"/>
+          <layout:Link link="sv1#page1#ecu1-month-5"/>
+          <layout:Link link="sv1#page1#ecu1-month-6"/>
+          <layout:Link link="sv1#page1#ecu1-month-7"/>
+          <layout:Link link="sv1#page1#ecu1-month-8"/>
+          <layout:Link link="sv1#page1#ecu1-month-9"/>
+          <layout:Link link="sv1#page1#ecu1-month-10"/>
+          <layout:Link link="sv1#page1#ecu1-month-11"/>
+          <layout:Link link="sv1#page1#ecu1-year"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>
